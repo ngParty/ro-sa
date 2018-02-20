@@ -1,4 +1,4 @@
-import { E2E_TEST_ENV } from '../environment';
+import { BASE_URL } from '../environment';
 import { Browser } from './browser';
 
-export const browser = new Browser(E2E_TEST_ENV);
+export const browser = new Browser(BASE_URL);
