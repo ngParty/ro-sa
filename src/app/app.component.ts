@@ -27,10 +27,17 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         </h2>
       </li>
     </ul>
+    <app-button (click)="handleClick($event)">hello</app-button>
+    <br>
+    <app-button text="hello" (click)="handleClick($event)"></app-button>
   `,
   styles: [``],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
   title = 'app';
+
+  handleClick(event: MouseEvent) {
+    console.log(event);
+  }
 }
