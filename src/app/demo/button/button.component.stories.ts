@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import { withNotes } from '@storybook/addon-notes';
 import { withKnobs, text, number, boolean, array, select, color, date, button } from '@storybook/addon-knobs/angular';
 
-import { ButtonComponent } from '../app/demo/button/button.component';
+import { ButtonComponent } from './button.component';
 
 storiesOf('My Button', module)
   .addDecorator(withKnobs)
