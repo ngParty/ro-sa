@@ -17,9 +17,9 @@ function loadStories() {
   const req = require.context('../src/stories', true, /\.stories\.ts$/);
   req.keys().forEach((filename) => req(filename));
 
-  // const reqWithImpl = require.context('../src/app', true, /\.stories\.ts$/);
-  // console.log(reqWithImpl.keys());
-  // reqWithImpl.keys().forEach((filename) => req(filename));
+  // automatically import all story ts files that end with *.stories.ts within app ( side by side implementation )
+  const reqLocal = require.context('../src/app', true, /\.stories\.ts$/);
+  reqLocal.keys().forEach((filename) => reqLocal(filename));
 }
 
 configure(loadStories, module);
