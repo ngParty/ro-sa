@@ -1,4 +1,3 @@
-// import { NgModule } from '@angular/core';
 declare module '@storybook/angular' {
-  // export function moduleMetadata(metadata: Partial<NgModule>): any;
+  export { moduleMetadata } from '@storybook/angular/dist/client/preview/angular/decorators';
 }
