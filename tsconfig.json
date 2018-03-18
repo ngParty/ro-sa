@@ -25,6 +25,7 @@
     ],
     "pretty": true
   },
+  "exclude": [],
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "skipMetadataEmit": true,
