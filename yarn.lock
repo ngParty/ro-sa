@@ -141,6 +141,12 @@
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.2.9.tgz#4838bb6319c99e8f5beb08bdfb392ee9a1173766"
 
+"@angular/material@>=5.0.0":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.4.tgz#9e823798324283d23ea839156fac5bcb73443d55"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@5.2.9":
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.9.tgz#86075b7bb694861f722ceda29aae186b045c6b7d"
@@ -327,6 +333,28 @@
     source-map "^0.5.6"
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
+
+"@ngx-formly/bootstrap@2.0.0-rc.47":
+  version "2.0.0-rc.47"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/bootstrap/-/bootstrap-2.0.0-rc.47.tgz#d9d6ddcfa5bc2fee18bcf06c6c38a1d39dc351f0"
+  dependencies:
+    "@ngx-formly/core" "2.0.0-rc.47"
+    bootstrap "^4.0.0 || ^3.3.7"
+    tslib "^1.7.1"
+
+"@ngx-formly/core@2.0.0-rc.47":
+  version "2.0.0-rc.47"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-2.0.0-rc.47.tgz#a42d1f1b90abac3b91170062adb017f12424ae84"
+  dependencies:
+    tslib "^1.7.1"
+
+"@ngx-formly/material@2.0.0-rc.47":
+  version "2.0.0-rc.47"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-2.0.0-rc.47.tgz#5e502c771fc98fe7d2b01c0cf5a43bbd8f49b8cd"
+  dependencies:
+    "@angular/material" ">=5.0.0"
+    "@ngx-formly/core" "2.0.0-rc.47"
+    tslib "^1.7.1"
 
 "@schematics/angular@0.3.2":
   version "0.3.2"
@@ -1936,6 +1964,10 @@ boom@5.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+bootstrap@4.0.0, "bootstrap@^4.0.0 || ^3.3.7":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
 
 bowser@1.6.0:
   version "1.6.0"
